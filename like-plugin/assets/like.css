@@ -1,0 +1,41 @@
+.like-buttons {
+    display: flex;
+}
+
+.like-buttons button {
+    padding: .5em .8em;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.containerBtn {
+    margin-right: 1em;
+}
+
+.containerBtn span {
+    margin-left: .5em;
+}
+
+.like-button {
+    background-color: rgb(133, 218, 133);
+    color: #1a1a1a;
+}
+
+.dislike-button {
+    background-color: rgb(218, 133, 133);
+    color: #1a1a1a;
+}
+
+.like-button:hover {
+    background-color: rgb(129, 209, 129);
+    transform: scale(95%);
+}
+
+.dislike-button:hover {
+    background-color: rgb(194, 119, 119);
+    transform: scale(95%);
+}
